@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.bib{
+    margin-left: 10px;
+}
+
+.stackofbooks{
+    width: 60px;
+    height: 60px;
+}
+
+.head{
+    justify-content: space-around;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.grvn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.vector{
+    height: 10px;
+    width: 10px;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+nav>a{
+    color: black;
+    text-decoration: none;
+}
+
+.bibl{
+    font-size: 20px;
+    font-weight: 5000;
+    color: #4D2900;
+    text-decoration: underline;
+}
+
+.knij{
+    font-size: 15px;
+    padding-left: 13px;
+}
+
+.search{
+    padding: 5px;
+    border-bottom: 1px solid ;
+    display: flex;
+    gap: 20px;
+}
+
+.lupa{
+    width: 20px;
+    height: 20px;
+
+}
+
+.homecont{
+    width: 430px;
+}
+
+.homepage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 100px;
+}
+
+.pere{
+    margin-top: 10px;
+    color: white;
+    padding: 20px;
+    background-color: #E16A00;
+    outline: none;
+    border: none;
+}
+
+.h1books{
+    font-size: 50px;
+}
+
+p{
+    padding-top: 10px;
+}
+
+.sold{
+    font-size: 10px;
+}
+
+.homeimages{
+    box-shadow: -23px 25px 5px -11px rgba(0, 0, 0, 0.6);
+    margin-right: 40px;
+    background-color: #4D2900;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.box{
+    z-index: -1;
+    box-shadow: -23px 25px 5px -11px rgba(0, 0, 0, 0.6);
+    background-color: #4D2900;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: -30px;
+    right: 200px;
+
+}
+
+.box2{
+    z-index: -1;
+    box-shadow: -23px 25px 5px -11px rgba(0, 0, 0, 0.6);
+    background-color: #4D2900;
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    top: -10px;
+    right: 50px;
+}
+
+.box3{
+    z-index: -1;
+    box-shadow: -23px 25px 5px -11px rgba(0, 0, 0, 0.6);
+    background-color: #4D2900;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    bottom: -70px;
+    right: 150px;
+}
+
+.bookake{
+    position: absolute;
+    left: -50px;
+    bottom: 30px;
+    
+}
+
+.nigi{
+    width: 400px;
+    height: 250px;
+}
+
+.cenaistrel{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.com{
+    font-size: 10px;
+    padding: 2px;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+}
+
+.sec2head{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.head2{
+    display: flex;
+}
+
+.hot{
+    font-weight: 500;
+}
+
+.head2dop{
+    gap: 50px;
+    padding-left: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.secondsec{
+    width: 100%;
+    height: 90vh;
+}
+
+.katalog1{
+    margin-top: 100px;
+    gap: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.kniga1{
+    padding-top: 10px;
+    padding-left: 25px;
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    width: 184.315px;
+    height: 352px;
+}
+
+.por{
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.kon{
+    font-size: 12px;
+}
+
+.vkorz{
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    background-color: #E16A00;
+    margin-top: 20px;
+    border: 0;
+    outline: 0;
+}
+
+.palka{
+    margin-left: 74.5vh;
+    margin-top: 50px;
+    position: relative;
+    background-color: #D7D7D7;
+    width: 370px;
+    height: 6px;
+}
+
+.block{
+    right: 170px;
+    top: -3px;
+    position: absolute;
+    background-color: #4D2900;
+    width: 47px;
+    height: 12px;
+}
+
+.secthree{
+    width: 100%;
+    height: 100vh;
+}
+
+.ras{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.kniga2{
+    padding-top: 10px;
+    padding-left: 25px;
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    width: 184.315px;
+    height: 352px;
+}
+
+.forsena{
+    display: flex;
+}
+
+.skidka{
+    font-weight: 500;
+    font-size: 13px;
+    color: #D70000;
+    text-decoration: line-through;
+}
+
+.block2{
+    left: 5px;
+    top: -3px;
+    position: absolute;
+    background-color: #4D2900;
+    width: 47px;
+    height: 12px;
+}
+
+.kat{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.secfour{
+    width: 100%;
+    height: 100vh;
+}
+
+.bloka{
+    margin: 30px;
+    border-radius: 10px;
+    width: 242px;
+    height: 76px;
+    padding-top: 22px;
+    text-align: center;
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.inblyat{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.forblocka{
+    margin-left: 220px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat( 3, 0fr);
+}
+
+.secfive{
+    width: 100%;
+    height: 30vh;
+}
+
+.about{
+    font-weight: 900;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.statistic{
+    display: flex;
+    align-items: center;
+    color: #241400;
+    gap: 20px;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+.numbers{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.secsix{
+    width: 100%;
+    height: 30vh;
+}
+
+.dostavka{
+    font-weight: 900;
+    padding-top: 50px;
+    text-align: center;
+    color: #241400;
+}
+
+
+.odast{
+    padding-top: 50px;
+    font-size: 10px;
+    color: #241400;
+    font-weight: 10;
+    text-align: center;
+}
+
+.secseven{
+    width: 100%;
+    height: 40vh;
+}
+
+.sled{
+    font-weight: 900;
+    padding-top: 50px;
+    color: #241400;
+    text-align: center;
+}
+
+.soc{
+    align-content: center;
+    margin-top: 50px;
+    margin-left: 45vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 200px;
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #391F00;
+}
+
+.fcont{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-top: 50px;
+    margin-left: 140px;
+}
+
+.foot{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.popul{
+    color: white;
+}
+
+.pop{
+    font-weight: 10;
+}
+
+.popu{
+    font-weight: 10;
+}
+
+.phonen{
+    color: white;
+}
+
+.bibl2{
+    text-decoration: underline;
+}
+
+.knij{
+    margin-left: 3px;
+    text-align: center;
+}
+
+.null{
+    color: #391F00;
+}
+
+.zakaz{
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #391F00;
+    color: #E16A00;
+    outline: none;
+    border: solid 1px #E16A00;
+}
+
+.end{
+    padding-left: 48vh;
+    padding-top: 5vh;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.endtext{
+    font-weight: 10;
+    color: white;
+}
